@@ -1,0 +1,37 @@
+00:
+01:
+02:
+03:
+04:
+05:
+06:
+07:
+08:
+09:
+10:
+11:
+12:
+13:
+14:
+15:
+16:
+17:
+18:
+19:
+20:
+21:
+22: run11_1
+23: run10_1
+24: run1 # run2
+25: run2
+# MoO3 Forces
+# Coordinates 64x128x128 train_simple_coords2 2000 more --> 8000 more 
+# coords6 16x32x32 extra.sh 600 more --> 1200 more
+
+# MoO3 PDOS
+# Coordinates 64x128x128 600 more --> train_simple_coords done
+
+# BTO PDOS
+# SOAP 32x64x64
+# coords6 64x128x128
+# simple_coords 32x64x64
