@@ -35,17 +35,16 @@ Please refer to the original article for more details on the methods and algorit
 2. prediction_error_analysis.ipynb:  Jupyter notebook that calculate the prediction of all of the models based on different embedding level of details (number of steps and neighbors) and compares the errors <br>
 
 
-Dependencies
+##Dependencies
 The code in this repository requires the following dependencies:
-
-Python (version X.X.X)
-NumPy (version X.X.X)
-Pandas (version X.X.X)
-SciPy (version X.X.X)
-TensorFlow (version X.X.X)
-Scikit-Learn (version X.X.X)
-Matplotlib (version X.X.X)
-Seaborn (version X.X.X)
+ - Python (version 3.6.8)<br>
+ - NumPy (version 1.19.5)<br>
+ - Pandas (version 1.1.5)<br>
+ - SciPy (version 1.5.4)<br>
+ - TensorFlow (version 2.6.2)<br>
+ - Scikit-Learn (version 0.24.2)<br>
+ - Matplotlib (version 3.3.4)<br>
+ - Seaborn (version 0.11.2)<br>
 
 Citation
 If you use this code or data in your work, please consider citing the original article:
