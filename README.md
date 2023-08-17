@@ -4,10 +4,8 @@ This repository contains code related to the scientific article titled "Bonding-
 ## Abstract
 Deep potentials for molecular dynamics (MD) achieve first-principles accuracy at significantly lower computational cost. However, their application in large length- and time-scale simulations is limited by their reduced speed compared to analytical atomistic potentials. This limitation arises due to the complexity of the neural network architecture and the long time required for embedding calculations. In this study, we propose a chemical-bonding-aware embedding for neural network potentials that achieve state-of-the-art accuracy in predicting forces and local electronic density of states (LDOS). Our method utilizes a compact 16x32 neural network, significantly reducing computational costs while maintaining high accuracy.
 
-## Conclusion
-In conclusion, we have developed a novel chemical-bonding-aware embedding based on the moments theorem for use in atomistic neural network models for molecular dynamics simulations. We have demonstrated the effectiveness of this embedding in accurately predicting forces and LDOS for MoO3 and BaTiO3 using an ultrasmall 16x32 neural network architecture. The key advantage of our approach is the highly descriptive and comprehensive bonding representation provided by the embedding, which is directly relevant to the prediction targets. This eliminates the need for the neural network to redundantly learn information already well-known to physicists and chemists, resulting in a smoother learning trajectory and overall learning process. Additionally, the low propagation time step time and simplicity of the embedding enable short time steps, making it highly practical for MD simulations.
-
 ## Repository Structure
+
 data-MoO3.parquet: The dataset extracted from calculations for MoO3.
 X-BaTiO3-paths.parquet: Preprocessed and transformed data for BaTiO3 containing paths and neighbors information.
 generate_embedding.py: Python script to generate the chemical-bonding-aware embedding for neural network potentials.
