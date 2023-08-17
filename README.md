@@ -2,9 +2,10 @@
 This repository contains code related to the scientific article titled "Bonding-aware Materials Representation for Deep Learning Atomistic Models" authored by Or Shafir and Ilya Grinberg from the Department of Chemistry at Bar-Ilan University, Ramat-Gan, Israel.
 
 ## Abstract
+<p align="center">
 Deep potentials for molecular dynamics (MD) achieve first-principles accuracy at significantly lower computational cost. However, their application in large length- and time-scale simulations is limited by their reduced speed compared to analytical atomistic potentials. This limitation arises due to the complexity of the neural network architecture and the long time required for embedding calculations. In this study, we propose a chemical-bonding-aware embedding for neural network potentials that achieve state-of-the-art accuracy in predicting forces and local electronic density of states (LDOS). Our method utilizes a compact 16x32 neural network, significantly reducing computational costs while maintaining high accuracy.<br><br>
-
-![image](https://github.com/orsha1/moments-representation/assets/63854028/42b0397a-edb3-4327-a6f5-50945f7f02a7)
+\\<img src=https://github.com/orsha1/moments-representation/assets/63854028/42b0397a-edb3-4327-a6f5-50945f7f02a7>
+</p>
 
 ## Repository Structure
 README.md: This file, providing an overview of the repository and its contents.
