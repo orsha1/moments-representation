@@ -6,19 +6,28 @@ Deep potentials for molecular dynamics (MD) achieve first-principles accuracy at
 
 ## Repository Structure
 
-*Embedding
-generate_embedding.py: Python script to generate the chemical-bonding-aware embedding for neural network potentials.
-data-MoO3.parquet: The dataset extracted from calculations for MoO3.
-X-BaTiO3-paths.parquet: Preprocessed and transformed data for BaTiO3 containing paths and neighbors information.
+### Embedding
+
+Run the generate_embedding.py script to generate the chemical-bonding-aware embedding for neural network potentials.
+Use the generated data for your own deep learning atomistic models and simulations.
+Please refer to the original article for more details on the methods and algorithms used in this work.
+
+1. generate_embedding.py: Python script to generate the chemical-bonding-aware embedding for neural network potentials.<br>
+   - Input: data-BaTiO3.parquet: The dataset extracted from calculations for MoO3.<br>
+   - Output: X-BaTiO3-paths.parquet: Preprocessed and transformed data for BaTiO3 containing paths and neighbors information.<br>
+
+### Forces Example MoO3 / BaTiO3
+
+1. benchmark_analysis.ipynb: Jupyter notebook that compares the valdiation error for different embedding level of details (number of steps and neighbors). <br>
+2. learning_curve_analysis2.ipynb:  Jupyter notebook that allows examining the learning curve for the different models based on different embedding level of details (number of steps and neighbors).<br>
+3. prediction_error_analysis.ipynb:  Jupyter notebook that calculate the prediction of all of the models based on different embedding level of details (number of steps and neighbors) and compares the errors <br>
+
+
 README.md: This file, providing an overview of the repository and its contents.
 Usage
 To use the provided code, follow these steps:
 
-Clone or download the repository.
-Make sure you have the required dependencies installed.
-Run the generate_embedding.py script to generate the chemical-bonding-aware embedding for neural network potentials.
-Use the generated data for your own deep learning atomistic models and simulations.
-Please refer to the original article for more details on the methods and algorithms used in this work.
+
 
 Dependencies
 The code in this repository requires the following dependencies:
