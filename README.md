@@ -24,11 +24,11 @@ Please refer to the original article for more details on the methods and algorit
 ### Forces Example MoO3 / BaTiO3 (bp-BaTiO3-Forces2 or bp-MoO3-Forces)
 
 #### Training-related Files
-1. train_loop-0.py: training loop which loads the features, target, filter the embedding based on wanted levels (number of steps and neighbors)
+1. train_loop.py: training loop which loads the features, target, filter the embedding based on wanted levels (number of steps and neighbors)
    - Input: X-name-paths.parquet: Preprocessed and transformed data for the material ("name") containing paths and neighbors information.<br>
    - Output: model which is saved in the results subdirectory.
-2. run-0.sh: A bash script which reuns train_loop-0.py
-3. learning_curve_analysis2.ipynb:  Jupyter notebook that allows examining the learning curve for the different models based on different embedding level of details (number of steps and neighbors).<br>
+2. run.sh: A bash script which reuns train_loop-0.py
+3. learning_curve_analysis.ipynb:  Jupyter notebook that allows examining the learning curve for the different models based on different embedding level of details (number of steps and neighbors).<br>
 
 #### Analysis-related Files
 1. benchmark_analysis.ipynb: Jupyter notebook that compares the valdiation error for different embedding level of details (number of steps and neighbors). <br>
