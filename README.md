@@ -17,11 +17,14 @@ Please refer to the original article for more details on the methods and algorit
    - Output: X-BaTiO3-paths.parquet: Preprocessed and transformed data for BaTiO3 containing paths and neighbors information.<br>
 
 ### Forces Example MoO3 / BaTiO3
+#### Training-related Files
+1. train_loop-0.py: training loop which loads the features, target, filter the embedding based on wanted levels (number of steps and neighbors)
+2. run-0.sh: A bash script which reuns train_loop-0.py
+3. learning_curve_analysis2.ipynb:  Jupyter notebook that allows examining the learning curve for the different models based on different embedding level of details (number of steps and neighbors).<br>
 
+#### Analysis-related Files
 1. benchmark_analysis.ipynb: Jupyter notebook that compares the valdiation error for different embedding level of details (number of steps and neighbors). <br>
-2. learning_curve_analysis2.ipynb:  Jupyter notebook that allows examining the learning curve for the different models based on different embedding level of details (number of steps and neighbors).<br>
-3. prediction_error_analysis.ipynb:  Jupyter notebook that calculate the prediction of all of the models based on different embedding level of details (number of steps and neighbors) and compares the errors <br>
-
+2. prediction_error_analysis.ipynb:  Jupyter notebook that calculate the prediction of all of the models based on different embedding level of details (number of steps and neighbors) and compares the errors <br>
 
 README.md: This file, providing an overview of the repository and its contents.
 Usage
