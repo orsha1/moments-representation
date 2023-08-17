@@ -6,9 +6,10 @@ Deep potentials for molecular dynamics (MD) achieve first-principles accuracy at
 
 ## Repository Structure
 
+*Embedding
+generate_embedding.py: Python script to generate the chemical-bonding-aware embedding for neural network potentials.
 data-MoO3.parquet: The dataset extracted from calculations for MoO3.
 X-BaTiO3-paths.parquet: Preprocessed and transformed data for BaTiO3 containing paths and neighbors information.
-generate_embedding.py: Python script to generate the chemical-bonding-aware embedding for neural network potentials.
 README.md: This file, providing an overview of the repository and its contents.
 Usage
 To use the provided code, follow these steps:
