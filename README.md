@@ -35,7 +35,7 @@ Please refer to the original article for more details on the methods and algorit
 2. prediction_error_analysis.ipynb:  Jupyter notebook that calculate the prediction of all of the models based on different embedding level of details (number of steps and neighbors) and compares the errors <br>
 
 
-##Dependencies
+## Dependencies
 The code in this repository requires the following dependencies:
  - Python (version 3.6.8)<br>
  - NumPy (version 1.19.5)<br>
@@ -46,7 +46,7 @@ The code in this repository requires the following dependencies:
  - Matplotlib (version 3.3.4)<br>
  - Seaborn (version 0.11.2)<br>
 
-Citation
+## Citation
 If you use this code or data in your work, please consider citing the original article:
 
 Or Shafir and Ilya Grinberg. "Bonding-aware Materials Representation for Deep Learning Atomistic Models." arXiv preprint arXiv:2306.08285
